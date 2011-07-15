@@ -78,7 +78,7 @@ Then in the `out` dir you'll find:
 You need to install some stuff:
 
     pip install markdown
-    git clone https://github.com/zaach/orderly.js.git
+    git clone git@github.com:coopernurse/orderly.js.git
     install a recent version of node (tested with 0.4.8 on macos)
     
 Sorry, the node/orderly.js dependency is a drag.  The C version of orderly wasn't
