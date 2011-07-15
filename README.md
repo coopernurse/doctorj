@@ -1,6 +1,6 @@
 # doctorj: JSON messaging doc generator #
 
-## motivation ##
+## Motivation ##
 
 I like building systems made up of loosely coupled components that send messages to each other.  There's a bunch of ways to serialize messages these days.
 
@@ -24,7 +24,7 @@ That's what doctorj does.
 * Get a human readable API doc in HTML format
 * Get a JSON schema file for each Orderly block
 
-## example ##
+## Example ##
 
 Say you have this Markdown file:
 
@@ -73,7 +73,7 @@ Then in the `out` dir you'll find:
         foo_request.json
         foo_response.json
         
-## dependencies ##
+## Dependencies ##
 
 You need to install some stuff:
 
@@ -84,7 +84,11 @@ You need to install some stuff:
 Sorry, the node/orderly.js dependency is a drag.  The C version of orderly wasn't
 working for me.
 
-## reference ##
+## JSON Schema Implementations ##
+
+* See [list of JSON schema implementations](http://json-schema.org/implementations.html)
+
+## Reference ##
 
 ### syntax in markdown file ###
 
