@@ -83,3 +83,24 @@ You need to install some stuff:
     
 Sorry, the node/orderly.js dependency is a drag.  The C version of orderly wasn't
 working for me.
+
+## reference ##
+
+### syntax in markdown file ###
+
+* In your Markdown file use `~~~~{.orderly}` to start an orderly block
+* Each block *must* be preceeded by: `message: [name]`
+ * [name] is used to name the generated `.json` files
+ * In the above example, `message: foo_response` becomes `out/foo_response.json`
+ 
+### html templates ###
+
+* Use the `--template` switch to tell doctorj to use your HTML template file when merging in the Markdown output
+* If you omit this switch, a hardcoded template will be used (see `doctorj.py` to view it)
+* Currently templates can contain two tokens:
+ * `{{ CONTENT }}` - Will be replaced with the output from your `.md` file
+ * `{{ DATE }}` - Will be replaced with the current date/time
+
+### clean ###
+
+* Use the `--clean` switch to tell doctorj to remove all files in your `--outdir` directory before generating new output
