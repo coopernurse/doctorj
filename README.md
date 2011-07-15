@@ -29,7 +29,7 @@ That's what doctorj does.
 ## tl;dr ##
 
 * Write one Markdown file to document your JSON API.  
-** Inline Orderly blocks per-message you wish to document
+ * Inline Orderly blocks per-message you wish to document
 * Run doctorj
 * Get a human readable API doc in HTML format
 * Get a JSON schema file for each Orderly block
