@@ -1,1 +1,3 @@
 doctorj-env
+out
+*.pyc
