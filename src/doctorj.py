@@ -40,13 +40,6 @@ def write_temp_file(data, encoding="utf8"):
     f.close()
     return tmppath
 
-def add(a, b):
-    """
-    >>> add(1, 2)
-    >>> 3
-    """
-    return a+b
-
 def get_rel_path(base_fname, fname):
     """
     Returns a fully qualified path for fname relative to the base_fname
